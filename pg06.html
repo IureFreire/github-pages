@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style06.css">
+    <title>Trabalhe Conosco</title>
+
+    <style> 
+     body{ font-family: Arial, Helvetica, sans-serif;}
+     .content{display: flex; justify-content: center;}
+     .contato{width: 100%; max-width: 500px;}
+     .from{display: flex; flex-direction: column;}
+     .field{padding: 10px; margin-bottom: 15px;border: 1px solid bisque; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+     textarea{height: 150px;}
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="Logo_Azul.png" alt="foto.png">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Home</a>
+            <a class="cabecalho-menu-item" href="pg03.html">Quem Somos</a>
+            <a class="cabecalho-menu-item" href="pg04.html">Planos de Manutenção</a>
+            <a class="cabecalho-menu-item" href="pg05.html">Fale Conosco</a>
+            <a class="cabecalho-menu-item" href="pg06.html">Trabalhe Conosco</a>
+        </nav>
+        
+    </header>
+    <section class="content">
+        <div class="contato">
+            <h3>Formulário de Contato</h3>
+            <form class="from" method="post" action="email.php">
+                <input class="field" name="name" placeholder="Nome">
+                <input class="field" name="email" placeholder="E-mail">
+                <textarea class="field" name="mesage" id="Digite sua mensagem aqui."></textarea> 
+                <input class="field" type="submit" value="Enviar">
+
+            </form>
+        </div>
+    </section>
+</body>
+<body>
+    
+</body>
+</html>
